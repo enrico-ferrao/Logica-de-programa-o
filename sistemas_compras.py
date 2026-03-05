@@ -37,7 +37,7 @@ elif forma_de_pagamento == 2:
         print (f"Sua compra deu: R${valor_final}, o valor da parcela é de: R${valor_parcela} e a compra foi divida em: {aprazo} vezes com 5% juros ")
 
     else:
-        print ("Opção invalida!                                                                                                                                             ")
+        print ("Opção invalida!")
 
 else:
     print("Opção invalida!")
