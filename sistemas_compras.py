@@ -20,7 +20,7 @@ if forma_de_pagamento == 1:
     else:
         desconto = valor_compra * 0.05
         valor_final = valor_compra - desconto
-        print ("Sua compra deu: R$ %.2d e seu desconto foi de R$ %.2d "  %(valor_final,desconto))
+        print ("Sua compra deu: R$ %.2f e seu desconto foi de R$ %.2f "  %(valor_final,desconto))
 
 
 elif forma_de_pagamento == 2:
