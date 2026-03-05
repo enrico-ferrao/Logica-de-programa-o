@@ -17,10 +17,12 @@ if forma_de_pagamento == 1:
         desconto = valor_compra * 0.1
         valor_final = valor_compra - desconto
         print (f"Sua compra deu: R${valor_final} e seu desconto foi de R${desconto} ")
-    else:
+    elif avista == 2:
         desconto = valor_compra * 0.05
         valor_final = valor_compra - desconto
         print ("Sua compra deu: R$ %.2f e seu desconto foi de R$ %.2f "  %(valor_final,desconto))
+    else:
+        print("Opção invalida!")
 
 
 elif forma_de_pagamento == 2:
@@ -35,7 +37,7 @@ elif forma_de_pagamento == 2:
         print (f"Sua compra deu: R${valor_final}, o valor da parcela é de: R${valor_parcela} e a compra foi divida em: {aprazo} vezes com 5% juros ")
 
     else:
-        print ("Mais do que 3 vezes, não é permitido! ")
+        print ("Opção invalida!                                                                                                                                             ")
 
 else:
     print("Opção invalida!")
