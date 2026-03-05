@@ -41,5 +41,3 @@ elif forma_de_pagamento == 2:
 
 else:
     print("Opção invalida!")
-
-
