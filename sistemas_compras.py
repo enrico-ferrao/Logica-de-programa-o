@@ -25,13 +25,14 @@ if forma_de_pagamento == 1:
 
 elif forma_de_pagamento == 2:
     aprazo = int(input("Aprazo, em quantas parcelas: (2 vez = 2, 3 vezes = 3) "))
+    valor_parcela = valor_compra / aprazo
     if aprazo == 2:
-        print (f"Sua compra deu: R${valor_compra} e a compra foi divida em: {aprazo} vezes s/ juros ")
+        print (f"Sua compra deu: R${valor_compra}, o valor da parcela é de: R${valor_parcela} e a compra foi divida em: {aprazo} vezes s/ juros ")
     
     elif aprazo == 3:
         acrescimo = valor_compra * 0.05
         valor_final = valor_compra + acrescimo
-        print (f"Sua compra deu: R${valor_final} e a compra foi divida em: {aprazo} vezes com 5% juros ")
+        print (f"Sua compra deu: R${valor_final}, o valor da parcela é de: R${valor_parcela} e a compra foi divida em: {aprazo} vezes com 5% juros ")
 
     else:
         print ("Mais do que 3 vezes, não é permitido! ")
