@@ -1,3 +1,7 @@
+# calculadora de valores para show, existindo pista e arquibancada
+# pista premium = 500, comum = 200
+# arquibancada inferior = 400, superior = 350
+
 ingresso = int (input ("Qual o ingresso: (pista = 1, arquibancada = 2) "))
 quantidade = int ( input ("Quantos ingressos: ") )
 
